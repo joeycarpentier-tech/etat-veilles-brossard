@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+OK : /home/hatch/workspace/etat-veilles/deploy/index.html (6125 octets), /home/hatch/workspace/etat-veilles/deploy/site.zip
+ale=1">
 <meta http-equiv="refresh" content="300">
 <title>État des veilles</title>
 <style>
@@ -32,18 +29,18 @@
 <body>
 <div class="wrap">
   <h1>État des veilles</h1>
-  <div class="upd">Mis à jour à 00:12:50 · se recharge toute seule toutes les 5 min</div>
-  <div class="alert">⚠ Aveugle : Résumé Marketplace du matin</div>
+  <div class="upd">Mis à jour à 08:57:35 · se recharge toute seule toutes les 5 min</div>
+  
   <div class="summary">
-    <div class="card"><strong style="color:#16a34a">6</strong>à jour</div>
-    <div class="card"><strong style="color:#6b7280">1</strong>aveugle</div>
+    <div class="card"><strong style="color:#16a34a">7</strong>à jour</div>
+    <div class="card"><strong style="color:#6b7280">0</strong>aveugle</div>
   </div>
   
       <div class="row">
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Activix (SMS + leads) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : sonde directe &#x27;active&#x27; à 22:48:41 — ~84 min écoulées (&gt; 60 min : périmée). AUCUNE tâche navigateur lancée (route worker interdite). Dernier statut vérifié conservé sans modification : verte, dernière vérification réussie à 22h48.</div>
+          <div class="detail">Passage 08h57 : sonde directe &#x27;active&#x27; à 22:48:41 — ~10h09 écoulées (&gt; 60 min : périmée). AUCUNE tâche navigateur lancée (route worker interdite). Dernier statut vérifié conservé sans modification : verte, dernière vérification réussie à 22h48. Aucune transition.</div>
         </div>
         <div class="side">
           <div class="time">22h48</div>
@@ -54,10 +51,10 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Denis (Rogue S 2022) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : dernier run succeeded à 00:10:08 (il y a ~3 min &lt; 30 min) — aucun nouveau message de Denis. Pas de transition.</div>
+          <div class="detail">Passage 08h57 : dernier run succeeded à 08:50:13 (il y a ~7 min &lt; 30 min). last_ok mis à jour. Aucune transition.</div>
         </div>
         <div class="side">
-          <div class="time">00h10</div>
+          <div class="time">08h50</div>
           <div class="freq">toutes les 10 min</div>
         </div>
       </div>
@@ -65,21 +62,21 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Marketplace (temps réel) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : dossier ~/hooks/state/mplace-notify/ lisible, alerts.json présent. Pas de transition.</div>
+          <div class="detail">Passage 08h57 : dossier ~/hooks/state/mplace-notify/ lisible, alerts.json présent. last_ok mis à jour. Aucune transition.</div>
         </div>
         <div class="side">
-          <div class="time">00h12</div>
+          <div class="time">08h57</div>
           <div class="freq">toutes les 30 s</div>
         </div>
       </div>
       <div class="row">
-        <span class="dot" style="background:#9ca3af"></span>
+        <span class="dot" style="background:#22c55e"></span>
         <div class="main">
-          <div class="name">Résumé Marketplace du matin <span class="badge b-grey">Aveugle</span></div>
-          <div class="detail">Passage 00h12 : TRANSITION verte → aveugle. Dernier run succeeded le 7 oct. à 08h52 — aucun passage le 8 oct. (prochain prévu à 08h52).</div>
+          <div class="name">Résumé Marketplace du matin <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 08h57 : run succeeded ce jour à 08:53:19 (fin du passage 08h52, terminé à 08:53:19) — TRANSITION aveugle → verte. Aucun nouveau message d&#x27;acheteur dans les dernières 24 h (résumé généré).</div>
         </div>
         <div class="side">
-          <div class="time">08h52</div>
+          <div class="time">08h53</div>
           <div class="freq">quotidien 08h52</div>
         </div>
       </div>
@@ -87,10 +84,10 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Tableau des ventes <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : dernier run succeeded à 00:11:44 (il y a ~1 min &lt; 15 min) — pas besoin de la vérification fraîcheur ce passage. Pas de transition.</div>
+          <div class="detail">Passage 08h57 : dernier run succeeded à 08:56:48 (il y a ~1 min &lt; 15 min) — verte directe, last_ok mis à jour. Aucune transition.</div>
         </div>
         <div class="side">
-          <div class="time">00h11</div>
+          <div class="time">08h56</div>
           <div class="freq">toutes les 3 min</div>
         </div>
       </div>
@@ -98,7 +95,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Livraisons du jour (auto) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : filigrane périmé (2026-10-07) → vérité terrain curlée : bloc deliveryData de la production au 2026-10-08 (2 livraisons : BELLEFLEUR T0259 14:00 ANTOINE, GONZALEZ T0702 18:00 MICHEL) → verte + filigrane réécrit (auto-réparation).</div>
+          <div class="detail">Passage 08h57 : filigrane livraisons_deployed.json au 2026-10-08 == aujourd&#x27;hui → verte, last_ok à l&#x27;heure du deployed_at (00:12:50). Aucune transition.</div>
         </div>
         <div class="side">
           <div class="time">00h12</div>
@@ -109,7 +106,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Carrousels après livraison <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 00h12 : job activé (daily 19h52), dernier run succeeded le 7 oct. à 19h52 (livraison Sentra SV Premium 2026 détectée, photos demandées). Pas de transition.</div>
+          <div class="detail">Passage 08h57 : job activé (daily 19h52, vérifié via cron.status), dernier run succeeded le 7 oct. à 19h52, 0 échec consécutif. Aucune transition.</div>
         </div>
         <div class="side">
           <div class="time">19h52</div>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>État des veilles</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:#f4f5f7;color:#1a1d23;padding:24px 16px}
+  .wrap{max-width:640px;margin:0 auto}
+  h1{font-size:1.35rem;margin-bottom:4px}
+  .upd{color:#6b7280;font-size:.85rem;margin-bottom:14px}
+  .alert{background:#fef3c7;border:1px solid #f59e0b;color:#92400e;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:.9rem}
+  .summary{display:flex;gap:10px;margin-bottom:14px}
+  .card{flex:1;background:#fff;border-radius:10px;padding:12px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  .card strong{font-size:1.5rem;display:block}
+  .row{display:flex;align-items:flex-start;gap:12px;background:#fff;border-radius:10px;padding:12px 14px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+  .dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto;margin-top:4px}
+  .main{flex:1;min-width:0}
+  .name{font-weight:600;font-size:.95rem}
+  .detail{color:#6b7280;font-size:.8rem;margin-top:2px}
+  .side{text-align:right;flex:0 0 auto}
+  .time{font-weight:700;font-size:1rem}
+  .freq{color:#6b7280;font-size:.72rem}
+  .badge{font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:20px;vertical-align:1px;margin-left:6px}
+  .b-green{background:#dcfce7;color:#166534}
+  .b-grey{background:#e5e7eb;color:#4b5563}
+  .foot{color:#9ca3af;font-size:.72rem;text-align:center;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>État des veilles</h1>
+  <div class="upd">Statuts mis à jour à 13:27:30 · vérifiés automatiquement toutes les 15 min · la page se recharge toute seule toutes les 5 min</div>
+  
+  <div class="summary">
+    <div class="card"><strong style="color:#16a34a">7</strong>à jour</div>
+    <div class="card"><strong style="color:#6b7280">0</strong>aveugle</div>
+  </div>
+  
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Veille Activix (SMS + leads) <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : sonde directe &#x27;active&#x27; à 22:48:41 (7 oct.) — ~14h39 écoulées (&gt; 60 min : périmée). AUCUNE tâche navigateur lancée (route worker interdite, décision du 2026-10-07). Dernier statut vérifié conservé sans modification : verte, dernière vérification réussie à 22h48 le 7 oct. Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">22h48</div>
+          <div class="freq">toutes les 5 min</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Veille Denis (Rogue S 2022) <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : dernier run succeeded (programmé 13:19:58), terminé à ~13:20:29 (il y a ~7 min &lt; 30 min). last_ok mis à jour. Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">13h27</div>
+          <div class="freq">toutes les 10 min</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Veille Marketplace (temps réel) <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : dossier ~/hooks/state/mplace-notify/ lisible, alerts.json présent. last_ok mis à jour. Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">13h27</div>
+          <div class="freq">toutes les 30 s</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Résumé Marketplace du matin <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : run succeeded ce jour à 08:52 (déjà compté aux passages précédents). Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">08h53</div>
+          <div class="freq">quotidien 08h52</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Tableau des ventes <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : dernier run succeeded il y a ~2 min (programmé 13:23:18, terminé ~13:25:10, &lt; 15 min) → VERTE. Un run est en cours (13:26:18), sans impact. last_ok mis à jour. Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">13h27</div>
+          <div class="freq">toutes les 3 min</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Livraisons du jour (auto) <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : filigrane livraisons_deployed.json au 2026-10-08 == aujourd&#x27;hui → verte, last_ok à l&#x27;heure du deployed_at (00:12:50). Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">00h12</div>
+          <div class="freq">quotidien 00h00</div>
+        </div>
+      </div>
+      <div class="row">
+        <span class="dot" style="background:#22c55e"></span>
+        <div class="main">
+          <div class="name">Carrousels après livraison <span class="badge b-green">À jour</span></div>
+          <div class="detail">Passage 13h27 : job activé (daily 19h52), dernier run succeeded le 7 oct. à 19h52, 0 échec consécutif. Aucune transition.</div>
+        </div>
+        <div class="side">
+          <div class="time">19h52</div>
+          <div class="freq">quotidien 19h52</div>
+        </div>
+      </div>
+  <div class="foot">Statuts et heures uniquement — aucun contenu client.</div>
+</div>
+</body>
+</html>

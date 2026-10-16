@@ -32,7 +32,7 @@
 <body>
 <div class="wrap">
   <h1>État des veilles</h1>
-  <div class="upd">Statuts mis à jour à 18:28:13 · vérifiés automatiquement toutes les 15 min · la page se recharge toute seule toutes les 5 min</div>
+  <div class="upd">Statuts mis à jour à 12:01:00 · vérifiés automatiquement toutes les 15 min · la page se recharge toute seule toutes les 5 min</div>
   
   <div class="summary">
     <div class="card"><strong style="color:#16a34a">7</strong>à jour</div>
@@ -43,7 +43,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Activix (SMS + leads) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : sonde directe &#x27;active&#x27; du 12 oct. à 11:44:00 — ~54h45 (&gt; 60 min) : règle du 2026-10-07 appliquée, dernier statut vérifié conservé sans modification, aucune tâche navigateur lancée, aucune tentative de connexion. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : sonde directe &#x27;active&#x27; du 12 oct. à 11:44:00 — &gt;60 min : règle du 2026-10-07 appliquée, dernier statut vérifié conservé sans modification, aucune tâche navigateur lancée, aucune tentative de connexion. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
           <div class="time">11h44</div>
@@ -54,10 +54,10 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Denis (Rogue S 2022) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : dernier run terminé succeeded à 18:19:58 (~8 min &lt; 30 min), rien à signaler (Denis toujours silencieux). last_ok mis à jour. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : dernier run terminé succeeded à 11:40:14 (~11 min &lt; 30 min). last_ok mis à jour. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
-          <div class="time">18h19</div>
+          <div class="time">11h40</div>
           <div class="freq">toutes les 10 min</div>
         </div>
       </div>
@@ -65,10 +65,10 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Veille Marketplace (temps réel) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : dossier ~/hooks/state/mplace-notify/ lisible, alerts.json présent (hook tourne, poll.lock frais). last_ok mis à jour. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : dossier ~/hooks/state/mplace-notify/ lisible, alerts.json présent. last_ok mis à jour. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
-          <div class="time">18h28</div>
+          <div class="time">11h51</div>
           <div class="freq">toutes les 30 s</div>
         </div>
       </div>
@@ -76,7 +76,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Résumé Marketplace du matin <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : dernier run succeeded ce matin à 08:52:58 (~9h35 &lt; 25 h, run du matin exécuté). last_ok inchangé. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : dernier run succeeded aujourd&#x27;hui à 08:52:00 (&lt; 25 h — run du jour 08:52). last_ok inchangé. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
           <div class="time">08h52</div>
@@ -87,10 +87,10 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Tableau des ventes <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : TRANSITION aveugle→verte. La page de production répond à nouveau HTTP 200 (elle retournait 404 &#x27;Page not found&#x27; au passage 18:13) et affiche les mêmes totaux que refresh_state.json (32 = 21 neuves + 11 usagées) — données vérifiées à jour. Aucun run succeeded récent (run 18:26 en file, runs 18:20/18:23 coalescés-annulés), la règle de fraîcheur des données s&#x27;applique. Dernière vérification aveugle : 18:13.</div>
+          <div class="detail">Correction 12:01 — verdict &#x27;aveugle&#x27; du passage 11:51 INFIRMÉ par curl : production = 36 ventes (25N+11U), sha256 d8fddfd1… identique au build vérifié du 16 oct. 00:07, deliveryData 2026-10-16. Journal inchangé, rien à signaler.</div>
         </div>
         <div class="side">
-          <div class="time">18h28</div>
+          <div class="time">12h01</div>
           <div class="freq">toutes les 3 min</div>
         </div>
       </div>
@@ -98,7 +98,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Livraisons du jour (auto) <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : filigrane livraisons_deployed.json = 2026-10-14 (déployé à 00:07:09) — règle (1) appliquée : date d&#x27;aujourd&#x27;hui → verte, last_ok inchangé. Confirmé en plus : le bloc deliveryData de la page de production porte aussi la date du 2026-10-14. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : filigrane livraisons_deployed.json = 2026-10-16 (déployé à 00:07:00) — règle (1) appliquée : date d&#x27;aujourd&#x27;hui → verte, last_ok inchangé. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
           <div class="time">00h07</div>
@@ -109,7 +109,7 @@
         <span class="dot" style="background:#22c55e"></span>
         <div class="main">
           <div class="name">Carrousels après livraison <span class="badge b-green">À jour</span></div>
-          <div class="detail">Passage 18:28 : job activé (enabled=true, 0 échec consécutif, cron.status vérifié), dernier run succeeded le 13 oct. à 19:52:33, prochain run ce soir à 19:52. last_ok inchangé. Aucune transition (déjà verte).</div>
+          <div class="detail">Passage 11:51 : job activé, dernier run succeeded hier à 19:52:53 (non failed). last_ok inchangé. Aucune transition (déjà verte).</div>
         </div>
         <div class="side">
           <div class="time">19h52</div>
